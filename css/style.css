@@ -1,0 +1,213 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-image: url(../images/cloud.jpg);
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-position: center;
+  position: relative;
+  background-attachment: fixed;
+  overflow-x: hidden;
+}
+
+.slog {
+  position: absolute;
+  left: 35.5%;
+  top: 7%;
+  
+}
+
+.col-md-12 {
+  opacity: 0.8;
+  
+}
+
+
+.fz-40 {
+  font-size: 4rem;
+  margin: auto;
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+ 
+}
+
+
+.fz-20 {
+  font-size: 2rem;
+  margin: auto;
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+ 
+}
+.logo {
+  font-family: 'Permanent Marker', cursive;
+  
+  color: rgb(25, 0, 189);
+}
+.logo2 {
+  font-family: 'Merienda', cursive;
+  color: rgb(0, 102, 235);
+  margin-right: 100px;
+}
+
+.logo-main {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-size: 80px;
+}
+
+
+
+
+
+
+.cloud1 img {
+  position: relative;
+  top: 10%;
+  width: 50%;
+  z-index: -10000 !important;
+}
+
+.cloud2 img {
+  position: relative;
+  top: 10%;
+  width: 50%;
+  z-index: -10000 !important;
+}
+
+.cloud3 img {
+  position: relative;
+  top: 10%;
+  width: 30%;
+  z-index: -10000 !important;
+}
+
+.cloud4 img {
+  position: relative;
+  top: 10%;
+  width: 10%;
+  z-index: -10000 !important;
+}
+
+.plane img {
+  width: 15%;
+  opacity: 0.9;
+  z-index: -10000 !important;
+}
+
+.container .cloud1 {
+  position: absolute;
+  animation: cloudOne infinite 20s linear;
+}
+
+.container .cloud2 {
+  position: absolute;
+  top: 50px;
+  left: 100px;
+  
+  animation: cloudOne infinite 25s linear;
+}
+
+.container .cloud3 {
+  position: absolute;
+  top: 80px;
+  left: 90px;
+  animation: cloudOne infinite 25s linear;
+}
+
+.container .cloud4 {
+  position: absolute;
+  top: 50px;
+  left: 100px;
+  animation: cloudOne infinite 25s linear;
+}
+
+.container .plane {
+  animation: plane infinite 20s linear;
+}
+
+.city-card {
+  position: relative;
+  width: 32%;
+  text-align: center;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: beige;
+  border: 1px solid rgb(175, 168, 168);
+  float: left;
+  box-sizing: border-box;
+  
+}
+
+.city-card img {
+  border-radius: 5%;
+  margin-top: 5px;
+  box-shadow: -2px -2px 5px #888888;
+}
+
+.container {
+  margin: 5px;
+}
+
+.circle {
+  position: absolute;
+  width: 200px;
+  left: 50%;
+  margin-left: -100px;
+  top: 30px;
+  height: 200px;
+  background-color: black;
+  border-radius: 50%;
+  opacity: 0.7;
+  display: none;
+  
+ 
+}
+
+.circle span {
+  font-size: 1.2rem;
+  position: relative;
+  top: 50px;
+  color: blanchedalmond;
+
+}
+
+.city-card:hover .circle {
+  display: block !important;
+}
+
+@keyframes cloudOne {
+
+  0% {
+    transform: translateX(-80%);
+  }
+
+  100% {
+    transform: translateX(100%);
+  }
+
+}
+
+@keyframes plane {
+
+  0% {
+    transform: translateX(-120%);
+
+  }
+
+  100% {
+    transform: translateX(150%);
+  }
+
+}
+
+nav {
+  opacity: 0.6;
+}
+
+#contact-form {
+ 
+  margin: 10%;
+}
+
+
