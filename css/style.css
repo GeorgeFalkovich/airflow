@@ -9,42 +9,39 @@ body {
   overflow-x: hidden;
 }
 
+nav {
+  z-index: 100;
+}
+
 .slog {
   position: absolute;
   left: 35.5%;
   top: 7%;
-  
 }
 
 .col-md-12 {
   opacity: 0.8;
-  
 }
-
 
 .fz-40 {
-  font-size: 4rem;
+  font-size: 5rem;
   margin: auto;
   text-align: center;
-  font-family: 'Dancing Script', cursive;
- 
+  font-family: "Dancing Script", cursive;
 }
-
 
 .fz-20 {
   font-size: 2rem;
   margin: auto;
   text-align: center;
-  font-family: 'Dancing Script', cursive;
- 
+  font-family: "Dancing Script", cursive;
 }
 .logo {
-  font-family: 'Permanent Marker', cursive;
-  
+  font-family: "Permanent Marker", cursive;
   color: rgb(25, 0, 189);
 }
 .logo2 {
-  font-family: 'Merienda', cursive;
+  font-family: "Merienda", cursive;
   color: rgb(0, 102, 235);
   margin-right: 100px;
 }
@@ -55,11 +52,6 @@ body {
   text-align: center;
   font-size: 80px;
 }
-
-
-
-
-
 
 .cloud1 img {
   position: relative;
@@ -104,7 +96,7 @@ body {
   position: absolute;
   top: 50px;
   left: 100px;
-  
+
   animation: cloudOne infinite 25s linear;
 }
 
@@ -128,19 +120,15 @@ body {
 
 .city-card {
   position: relative;
-  width: 32%;
   text-align: center;
   padding: 5px;
   border-radius: 5px;
   background-color: beige;
   border: 1px solid rgb(175, 168, 168);
-  float: left;
-  box-sizing: border-box;
-  
 }
 
 .city-card img {
-  border-radius: 5%;
+  border-radius: 15%;
   margin-top: 5px;
   box-shadow: -2px -2px 5px #888888;
 }
@@ -151,6 +139,7 @@ body {
 
 .circle {
   position: absolute;
+  padding: 8px;
   width: 50%;
   left: 50%;
   margin-left: -25%;
@@ -160,8 +149,6 @@ body {
   border-radius: 50%;
   opacity: 0.7;
   display: none;
-  
- 
 }
 
 .circle span {
@@ -169,17 +156,13 @@ body {
   position: relative;
   top: 50px;
   color: blanchedalmond;
-
 }
-
-
 
 .city-card:hover .circle {
   display: block !important;
 }
 
 @keyframes cloudOne {
-
   0% {
     transform: translateX(-80%);
   }
@@ -187,20 +170,16 @@ body {
   100% {
     transform: translateX(100%);
   }
-
 }
 
 @keyframes plane {
-
   0% {
     transform: translateX(-120%);
-
   }
 
   100% {
     transform: translateX(150%);
   }
-
 }
 
 nav {
@@ -208,58 +187,49 @@ nav {
 }
 
 #contact-form {
- 
   margin: 10%;
 }
 
 @media (max-width: 1000px) {
   .circle {
     position: absolute;
-    width: 60%;
+    padding: 10px;
+    width: 50%;
     left: 50%;
-    margin-left: -30%;
+    margin-left: -25%;
     top: 20px;
-    height: 30%;
+    height: 35%;
     background-color: black;
     border-radius: 50%;
     opacity: 0.7;
     display: none;
-    
-   
   }
 
   .circle span {
     color: wheat;
     top: 21px;
-    font-size: 16px;
+    font-size: 0.8rem;
   }
 }
-
 
 @media (max-width: 560px) {
   .circle {
     position: absolute;
-    width: 60%;
+    padding: 10px;
+    width: 50%;
     left: 50%;
-    margin-left: -30%;
-    top: 12px;
-    height: 50%;
+    margin-left: -25%;
+    top: 30px;
+    height: 45%;
     background-color: black;
     border-radius: 50%;
     opacity: 0.7;
     display: none;
-    
-   
   }
 
   .circle span {
     color: wheat;
     top: 70px;
-    font-size: 18px;
+    font-size: 1rem;
   }
 }
-
-
-
-
-

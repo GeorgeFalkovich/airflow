@@ -24,18 +24,9 @@ async function fetchWeather(city) {
     
 }
 
-
-
-
-
 for (let i = 0; i < cities.length; i++) {
 
     document.querySelector('#' + cities[i]).addEventListener('mouseover', () => {fetchWeather(cities[i])});
 
 }
-
-
-
-
-
 
