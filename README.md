@@ -4,4 +4,4 @@ Demo landing page implementng css animations with keyframes and JS promises to f
 
 see it on:
 
-https://air-flow.netlify.com/
+http://www.george-falkovich.com/airflow
